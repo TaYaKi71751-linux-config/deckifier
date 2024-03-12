@@ -1,7 +1,6 @@
 #!/bin/bash
 
-cat > /etc/profile.d/gamescope.sh << EOF
-#!/bin/bash
-
-gamescope -e steam
+sudo bash << EOF
+echo "\#!/bin/bash" > /etc/profile.d/gamescope.sh
+echo "gamescope -e steam" > /etc/profile.d/gamescope.sh
 EOF

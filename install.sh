@@ -1,4 +1,4 @@
 #!/bin/bash
 
-bash ./autologin/autologin.sh
-bash ./profile.d/gamescope.sh
+source ./autologin/autologin.sh
+source ./profile.d/gamescope.sh
