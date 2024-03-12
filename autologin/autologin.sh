@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /etc/systemd/system/getty@tty1.service.d/
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
 sudo bash << EOF
 echo "[Service]" > /etc/systemd/system/getty@tty1.service.d/autologin.conf
 echo "ExecStart=" >> /etc/systemd/system/getty@tty1.service.d/autologin.conf
