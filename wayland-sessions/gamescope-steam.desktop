@@ -1,5 +1,4 @@
 [Desktop Entry]
 Exec=gamescope -e -f -- steam -steamos -pipewire-dmabuf -gamepadui
-TryExec=/usr/bin/startplasma-steamos-oneshot
 DesktopNames=gamescope
 Name=gamescope
